@@ -1,0 +1,20 @@
+@media (max-width: 768px) {
+    .customer-container {
+      padding: 10px !important;
+      margin: 20px auto !important;
+      width: 95% !important;
+    }
+  
+    .customer-section {
+      padding: 15px !important;
+    }
+  
+    .customer-textarea {
+      width: 100% !important;
+    }
+  
+    .customer-button {
+      width: 100%;
+    }
+  }
+  

@@ -1,0 +1,179 @@
+
+
+.fivestar-container {
+  background-color: white;
+  padding: 0; /* No side padding */
+  margin: 0;
+  width: 98%;
+  height: 60vh;
+}
+
+.fivestar .swiper-wrapper {
+  display: flex;
+  gap: 10px;
+  height: auto;
+  min-height: 50vh;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.fimg1, .fimg2, .fimg3, .fimg4, .fimg5, .fimg6 {
+  width: 80%;
+  max-width: 600px;
+  height: 135px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  transition: filter 0.3s ease;
+  overflow: hidden;
+  margin-left: 25px;
+  background-clip: padding-box;
+}
+
+.firstone {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  transition: filter 0.3s ease;
+  overflow: hidden;
+  background-clip: padding-box;
+  height: auto;
+  min-height: 40vh;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.firstone p {
+  padding-left: 15px;
+  padding-top: 5px;
+  font-size: 17px;
+}
+
+.designation {
+  color: #6d6c6c;
+}
+
+.firstone .MuiRating-root {
+  font-size: 1rem;
+  padding-left: 10px;
+}
+
+.firstone:hover {
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+  background-color: #dad9d9;
+  filter: brightness(85%);
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  color: #11100c;
+  font-weight: 300;
+}
+
+.swiper-button-next:hover::after,
+.swiper-button-prev:hover::after {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7);
+  color: #067062;
+  padding: 1rem;
+  position: relative;
+  border-radius: 50px;
+  margin: 10px;
+}
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .home {
+    height: auto;
+    padding: 1rem;
+  }
+
+  .bannerSwiper {
+    height: 40vh;
+  }
+
+  .fivestar h3 {
+    font-size: 1rem;
+  }
+
+  .fivestar p {
+    font-size: 0.8rem;
+  }
+
+  .fivestar .rating {
+    font-size: 0.9rem;
+  }
+
+  .fivestar .image-button {
+    height: 120px;
+  }
+
+  .fivestar .card {
+    min-height: 35vh;
+  }
+}
+
+/* Small devices (576px - 767.98px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .bannerSwiper {
+    height: 45vh;
+  }
+
+  .fivestar h3 {
+    font-size: 1.1rem;
+  }
+
+  .fivestar p {
+    font-size: 0.9rem;
+  }
+
+  .fivestar .image-button {
+    height: 130px;
+  }
+
+  .fivestar .card {
+    min-height: 35vh;
+  }
+}
+
+/* Medium devices (768px - 991.98px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .bannerSwiper {
+    height: 48vh;
+  }
+
+  .fivestar h3 {
+    font-size: 1.2rem;
+  }
+
+  .fivestar .image-button {
+    height: 150px;
+  }
+}
+
+/* Large devices (992px - 1199.98px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .bannerSwiper {
+    height: 49vh;
+  }
+
+  .fivestar h3 {
+    font-size: 1.3rem;
+  }
+}
+
+/* Extra large devices (1200px and up) */
+@media (min-width: 1200px) {
+  .bannerSwiper {
+    height: 50vh;
+  }
+}
+
+/* Fallback card sizing */
+.fivestar .card {
+  height: auto;
+  min-height: 40vh;
+}

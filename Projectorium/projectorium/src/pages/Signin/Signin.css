@@ -1,0 +1,172 @@
+.signin-container{
+  position: relative;
+  background-color: #fff;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  padding-top: 60px;
+  
+}
+.signin-content{
+  position: relative;
+  
+}
+
+
+.signin-form
+{
+  position: relative; 
+  z-index: 2; 
+  width: 350px;
+  height: 470px;
+  margin-left: 31rem;
+  border: 1px solid #d5d9d9;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  
+}
+.signin-form h3{
+  font-size: 1.7rem;
+  margin-top: 0px;
+  margin-left: 20px;
+  font-weight: 300;
+}
+.email-input
+{
+  margin-left: 20px;
+  margin-top: 20px;
+ 
+}
+.password-input
+{ margin-left: 20px;
+  margin-top: 10px;
+ 
+
+}
+.em-i{
+width: 300px;
+height: 27px;
+border: 1px solid #888c8c;
+outline: none;
+border-radius: 3px;
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.pas-i{
+  width: 300px;
+  height: 27px;
+  border: 1px solid #888c8c;
+  outline: none;
+  border-radius: 3px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.forgot-pas
+{
+  color: #067062;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+.sign-button
+{
+  margin-left: 30px;
+  margin-top: 25px;
+}
+.signin-b
+{
+ background-color: #067062;
+ width: 280px;
+ border: none;
+ outline: none;
+ height: 30px;
+ border-radius: 15px;
+ cursor: pointer;
+ color: white;
+}
+.not 
+{
+  display: flex;
+  align-items: center;
+  gap: 0px;
+}
+.not a {
+  color: #067062; 
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.not a:hover {
+  color: #044d43; 
+  text-decoration: underline;
+}
+
+.not p{
+  color: #888c8c;
+  font-size: 0.8rem;
+  padding: 5px;
+  padding-left: 90px;
+  
+  line-height: 1;
+}
+.not span{
+  color:#055349 ;
+  margin-top: 10px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.other h3{
+  font-size: 1rem;
+}
+
+
+.sign-cancel
+{
+  margin-top: 10px;
+  margin-left: 30px;
+ 
+}
+.signin-cancel
+{
+  background-color: #ffffff;
+  border: 1px solid #888c8c;
+  outline: none;
+  width: 280px;
+  height: 30px; 
+  border-radius: 15px;
+  cursor: pointer;
+}
+@media (max-width: 992px) {
+  .signin-form {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    height: auto;
+  }
+}
+@media (max-width: 768px) {
+  .signin-form {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .signin-form {
+    padding: 1rem;
+    width: 100%;
+    max-width: 300px;
+    padding-right: 40px;
+  }
+  .em-i,
+  .pas-i,
+  .signin-b,
+  .signin-cancel {
+    width: 100%;
+  }
+}

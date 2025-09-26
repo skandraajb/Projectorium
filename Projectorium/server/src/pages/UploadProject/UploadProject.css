@@ -1,0 +1,239 @@
+
+  
+  .upload-project-section {
+    height: 90vh;
+    width: 100vw;
+    background-color: #eef3f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  .uploaded-main-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+  
+  .upload-image-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    color: #067062;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .main-preview-image {
+    max-width: 100%;
+    max-height: 300px; 
+    object-fit: cover; 
+  }
+    
+  .upload-project-wrapper {
+    height: 80vh;
+    width: 95vw;
+    display: flex;
+    gap: 30px;
+    overflow: hidden;
+  }
+  
+  .upload-project-left {
+    width: 30%;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .upload-thumbnail-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+  }
+  .upload-thumb-item {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border 0.3s;
+  }
+  
+  .upload-thumb-item img.thumbnail-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .upload-thumb-item.active {
+    border-color: #2ecc71; /* Green border for active */
+  }
+  .upload-thumb-item.placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    color: #888;
+    font-size: 14px;
+    border-radius: 8px;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+  }
+  .upload-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    color: #888;
+    border-radius: 8px;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .upload-main-thumbnail {
+    width: 100%;
+    height: 60%;
+    background-color: #d9f2ef;
+    border: 2px dashed #067062;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #067062;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .upload-thumbnail-list {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .upload-thumb-item {
+    width: 70px;
+    height: 70px;
+    background-color: #d0d0d0;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .upload-project-right {
+    width: 70%;
+    background-color: #ffffff;
+    padding: 25px 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+  }
+  
+  .upload-form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .upload-form-group label {
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #067062;
+    display: block;
+  }
+  
+  .upload-form-group input,
+  .upload-form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    resize: none;
+  }
+  
+  .upload-form-submit {
+    text-align: right;
+    padding-bottom: 10px;
+  }
+  
+  .upload-form-submit button {
+    background-color: #067062;
+    color: #fff;
+    padding: 12px 25px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .upload-form-submit button:hover {
+    background-color: #04574e;
+  }
+  
+  @media (max-width: 1024px) {
+    .upload-project-section {
+      height: auto;
+    }
+  
+    .upload-project-wrapper {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .upload-project-left,
+    .upload-project-right {
+      width: 100%;
+    }
+  
+    .upload-project-right {
+      max-height: none;
+    }
+  
+    .upload-thumbnail-list {
+      justify-content: center;
+      gap: 10px;
+    }
+  }
+  @media (max-width: 768px) {
+    .upload-project-wrapper {
+      flex-direction: column;
+    }
+  
+    .upload-project-left, .upload-project-right {
+      flex: 1 1 100%; /* Stacks them on small screens */
+      width: 100%; /* Full width */
+    }
+  
+    .upload-thumbnail-list {
+      flex-direction: row;
+      overflow-x: scroll;
+    }
+  
+    .upload-main-thumbnail img {
+      max-width: 90%; /* Make the image a bit smaller on small screens */
+    }
+  
+    .upload-form-group input, .upload-form-group textarea {
+      width: 100%; /* Full width for inputs and textareas */
+    }
+  
+    .upload-form-submit button {
+      width: 100%; /* Full width button */
+    }
+  }
+  

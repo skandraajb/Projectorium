@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  border: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: #e3e6e6;
+}
+
+
+.navbar-logo .logo{
+  background-image: url("images/p-logo.png");
+  width: 200px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: contain;
+ margin-top: 30px;
+ margin-left: 20px;
+
+}
+
+.signin-container {
+  background-image: url("images/login-signup-background1.png");
+  
+}
+
+
+.signin-logo
+{
+  width: 250px;
+  height: 60px;
+  background-image: url("images/p-logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 85px;
+
+}
+
+.google-sign
+{
+  background-image: url('images/google-signin.png');
+  width: 200px;
+  height: 40px;
+ background-repeat: no-repeat;
+ background-size: contain;
+ object-fit: cover;
+ margin-left: 80px;
+ margin-top: 15px;
+ cursor: pointer;
+}
+
+
+.google-signup
+{
+  background-image: url('images/google-signin.png');
+  width: 200px;
+  height: 40px;
+ background-repeat: no-repeat;
+ background-size: contain;
+ object-fit: cover;
+ margin-left: 80px;
+ margin-top: 15px;
+ cursor: pointer;
+}
+
+
+
+.fimg1{
+  background-image: url("images/fimg1.jpg");
+
+}
+.fimg2{
+  background-image: url("images/fimg2.jpg");
+}
+.fimg3{
+  background-image: url("images/fimg3.jpg");
+}
+.fimg4{
+  background-image: url("images/fimg4.jpg");
+}
+.fimg5{
+  background-image: url("images/fimg5.jpg");
+}
+.fimg6{
+  background-image: url("images/fimg6.png");
+}
+
+.happy {
+  background-image: url("images/happy.png");
+  width: 600px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+body{
+  background-color: white;
+}
+
+.simg1{
+  background-image: url("images/banner.png");
+  
+}
+.simg2{
+  background-image: url("images/banner1.jpg");
+  
+}
+.simg3{
+  background-image: url("images/banner2.png");
+  
+}
+.simg4{
+  background-image: url("images/banner3.jpg");
+  
+}
+.simg1, .simg2, .simg3, .simg4, .happy {
+  background-repeat: no-repeat;
+  background-size: cover;        /* Fills the area, crops sides */
+  background-position: center;   /* Keeps image centered */
+  width: 100%;                   /* Responsive width */
+  height: 200px;                 /* You can adjust this as needed */
+}
+
+
+.p-name
+{
+  display: flex;
+}
+.p-name h3{
+  margin-left: 20px;
+  margin-top: 20px;
+  color: #067062;
+  font-family: 'Times New Roman', Times, serif;
+}
+.p-name h4{
+  margin-left: 10px;
+  margin-top: 23px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 300;
+}
+.f-assigned
+{
+ display: flex ;
+}
+.f-assigned h3{
+  margin-left: 20px;
+  margin-top: 20px;
+  color: #067062;
+  font-family: 'Times New Roman', Times, serif;
+}
+.f-assigned h4{
+  margin-left: 10px;
+  margin-top: 22px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 300;
+}
+.team-m 
+{
+  display: block;
+  display: flex ;
+  
+ 
+}
+.team-m h3
+{color: #067062;
+  margin-left: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 20px;
+
+}
+.team-m p{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 0.8rem;
+  margin-left: 10px;
+
+}
+.team-names
+{
+  margin-top:25px;
+  margin-left: 0;
+}
+.badge
+{
+  background-image: url("images/certified-badge.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 350px;
+  height: 20px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.review-content h3{
+  color: #067062;
+  margin-left: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 20px;
+}
+.write-review{
+  width: 500px;
+  height: 60px;
+  margin-left: 20px;
+  margin-top: 10px;
+  border: none;
+}
+.logoblack{
+  background-image: url("images/logob.png");
+  width: 200px;
+  height: 50px;
+  margin-left: 35px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#team {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: bold;
+}
